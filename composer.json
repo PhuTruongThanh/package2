@@ -1,8 +1,8 @@
 {
-    "name": "phutruongthanh/package2",
-    "description": "mypackage",	
-    "keywords": [	
-    "mypackage"
+    "name": "phuthanhtruong/package2",
+    "description": "mypackage",
+    "keywords": [
+        "package2"
     ],
     "authors": [
         {
@@ -11,22 +11,24 @@
         }
     ],
     "license": "MIT",
-    "require": {},
-    "require-dev": {},
+    "require": {
+    },
+    "require-dev": {
+    },
     "autoload": {
-        "classmap": [	
-    "database"
-        ],
-        "psr-4": {	
-        
+        "psr-4": {
+            "PhuTruongThanh\\package2\\": "src/"
         }
-    },	
-   "autoload-dev": {	
-    "classmap": []
-    },	
-    "scripts": {},	
-    "minimum-stability": "dev",	
-    "config": {	
-    "preferred-install": "dist"
+    },
+    "autoload-dev": {
+        "classmap": [
+
+        ]
+    },
+    "scripts": {
+    },
+    "minimum-stability": "dev",
+    "config": {
+        "preferred-install": "dist"
     }
 }
