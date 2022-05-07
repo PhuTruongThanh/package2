@@ -12,7 +12,8 @@
     ],
     "license": "MIT",
     "require": {
-        "phutruongthanh/package2": "dev-main"
+    },
+    "require-dev": {
     },
     "autoload": {
         "psr-4": {

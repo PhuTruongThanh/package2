@@ -1,0 +1,50 @@
+{
+    "packages": [
+        {
+            "name": "phutruongthanh/package2",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PhuTruongThanh/package2.git",
+                "reference": "b57d7400951d91e3364928d3f5835bd5320b5626"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PhuTruongThanh/package2/zipball/b57d7400951d91e3364928d3f5835bd5320b5626",
+                "reference": "b57d7400951d91e3364928d3f5835bd5320b5626",
+                "shasum": ""
+            },
+            "time": "2022-05-07T03:41:08+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "PhuTruongThanh\\package2\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "foostart",
+                    "email": "foostart.com@gmail.com"
+                }
+            ],
+            "description": "mypackage",
+            "keywords": [
+                "package2"
+            ],
+            "support": {
+                "issues": "https://github.com/PhuTruongThanh/package2/issues",
+                "source": "https://github.com/PhuTruongThanh/package2/tree/10.5.9"
+            },
+            "install-path": "../phutruongthanh/package2"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

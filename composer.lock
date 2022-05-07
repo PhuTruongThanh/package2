@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "fe47618c5867982d08d61bcc4ffa706e",
+    "packages": [
+        {
+            "name": "phutruongthanh/package2",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PhuTruongThanh/package2.git",
+                "reference": "b57d7400951d91e3364928d3f5835bd5320b5626"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PhuTruongThanh/package2/zipball/b57d7400951d91e3364928d3f5835bd5320b5626",
+                "reference": "b57d7400951d91e3364928d3f5835bd5320b5626",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PhuTruongThanh\\package2\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "foostart",
+                    "email": "foostart.com@gmail.com"
+                }
+            ],
+            "description": "mypackage",
+            "keywords": [
+                "package2"
+            ],
+            "support": {
+                "issues": "https://github.com/PhuTruongThanh/package2/issues",
+                "source": "https://github.com/PhuTruongThanh/package2/tree/10.5.9"
+            },
+            "time": "2022-05-07T03:41:08+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "phutruongthanh/package2": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}
