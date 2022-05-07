@@ -1,8 +1,8 @@
 {
     "name": "PhuTruongThanh/package2",
-    "description": "mypackage"	
+    "description": "mypackage",	
     "keywords": [	
-    mypackage
+    "mypackage"
     ],
     "authors": [
         {
@@ -15,10 +15,10 @@
     "require-dev": {},
     "autoload": {
         "classmap": [	
-    database
+    "database"
         ],
         "psr-4": {	
-        PhuTruongThanh\\package2\\: "src/"
+        "PhuTruongThanh\\package2\\": "src/"
         }
     },	
    "autoload-dev": {	
