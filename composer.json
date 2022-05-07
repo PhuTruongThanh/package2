@@ -1,0 +1,32 @@
+{
+    "name": "PhuTruongThanh/package2",
+    "description": "mypackage"	
+    "keywords": [	
+    mypackage
+    ],
+    "authors": [
+        {
+            "name": "foostart",
+            "email": "foostart.com@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {},
+    "require-dev": {},
+    "autoload": {
+        "classmap": [	
+    database
+        ],
+        "psr-4": {	
+        PhuTruongThanh\\package2\\: "src/"
+        }
+    },	
+   "autoload-dev": {	
+    "classmap": []
+    },	
+    "scripts": {},	
+    "minimum-stability": "dev",	
+    "config": {	
+    "preferred-install": "dist"
+    }
+}
